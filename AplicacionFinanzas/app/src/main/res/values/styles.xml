@@ -1,0 +1,16 @@
+<resources>
+    <style name="btnRedondo">
+        <item name="android:backgroundTint">@color/barra</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="alertDialogPropio" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:icon">@mipmap/ic_logo_round</item>
+        <item name="android:background">@color/fondo</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:buttonBarPositiveButtonStyle">@style/btnRedondo</item>
+        <item name="android:buttonBarNegativeButtonStyle">@style/btnRedondo</item>
+    </style>
+
+</resources>

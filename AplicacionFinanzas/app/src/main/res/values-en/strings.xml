@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Finzify</string>
+    <string name="welcome_finzify">Welcome to Finzify</string>
+    <string name="welcome">Welcome to Finzify, with us you can manage your expenses and income!</string>
+    <string name="user">User</string>
+    <string name="password">Password</string>
+    <string name="view_password">Show password</string>
+    <string name="correct_login">Correct credentials!</string>
+    <string name="continuar">Continue</string>
+    <string name="menu">Menu</string>
+    <string name="news">Latest news about economy:</string>
+    <string name="comenzar">Start</string>
+    <string name="inicio">Home</string>
+    <string name="preferencias">Preferences</string>
+    <string name="gestiones">Managements</string>
+    <string name="operaciones">Welcome to the operations center</string>
+    <string name="acerca">About Finzify</string>
+    <string name="pregunta">What operation would you like to perform?</string>
+    <string name="add_gasto">Add expense</string>
+    <string name="gastos">Check expenses</string>
+    <string name="gasto_name">Expense name:</string>
+    <string name="gasto_description">Expense description:</string>
+    <string name="gasto_cantidad">Expense amount:</string>
+    <string name="gasto_categoria">Which category would you like to add the expense to?</string>
+    <string name="gasto_added">Expense added!</string>
+    <string name="gasto_info">Information about the expense:</string>
+    <string name="gasto_name_error">The name cannot be empty!</string>
+    <string name="gasto_name_error_max_car">The name cannot be more than 20 characters long!</string>
+    <string name="gasto_monto_error">The amount cannot be empty!</string>
+    <string name="gasto_monto_error_num">The amount must be a number!</string>
+    <string name="gasto_monto_error_max">You cannot have an expense greater than 6 digits!</string>
+    <string name="saldo_format">Balance: %1$s</string>
+    <string name="info_usuario">User information</string>
+    <string name="atras">Go Back</string>
+    <string name="gestionar_saldo">Manage balance</string>
+    <string name="add_saldo">Add balance</string>
+    <string name="p_titulo">Enable notifications</string>
+    <string name="p_descripcion">Enable or disable the notifications app</string>
+    <string name="p_titulo_e">Preferred email</string>
+    <string name="p_descripcion_e">Set the preferred email</string>
+    <string name="email">Enter your email</string>
+    <string name="retirar_saldo">Withdraw balance</string>
+    <string name="saldo_actual">Current balance: </string>
+    <string name="intro_saldo">Enter the balance</string>
+    <string name="login">Log in</string>
+    <string name="acerca_de">About Finzify
+Welcome to Finzify, your personal financial assistant! Designed to help you take control of your finances, our app allows you to manage your expenses and income in a simple, quick, and effective way.
+
+With Finzify, you can:
+
+Register and organize your income and expenses in one place.
+View clear summaries of your financial movements.
+Make informed decisions to achieve your economic goals.
+In this version 1.0, we have prioritized an intuitive interface and essential tools so that anyone, regardless of their level of experience, can keep their finances in order.
+
+Our mission is to make your path to a more stable and organized financial life easier. Your progress starts here with Finzify! 🚀
+
+Ready to get started?
+Discover everything you can achieve with us.</string>
+
+</resources>

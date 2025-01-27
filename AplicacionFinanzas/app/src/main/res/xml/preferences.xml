@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreferenceCompat
+        android:key="notifications_enabled"
+        android:title="@string/p_titulo"
+        android:summary="@string/p_descripcion"
+        android:defaultValue="true" />
+
+    <EditTextPreference
+        android:key="preferred_email"
+        android:title="@string/p_titulo_e"
+        android:summary="@string/p_titulo_e"
+        android:dialogTitle="@string/email"
+        android:defaultValue="alejandrodev@maestre.com"
+        app:useSimpleSummaryProvider="true" />
+
+</PreferenceScreen>

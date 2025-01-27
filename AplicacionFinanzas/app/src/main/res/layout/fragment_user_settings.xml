@@ -1,0 +1,101 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="viewModel"
+            type="view.views.UserSettingsFragment" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/fondo"
+        tools:context=".view.UserSettingsFragment">
+
+        <!-- Material Toolbar (Header) -->
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/menuBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/barra"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="@string/info_usuario"
+            app:titleTextColor="@color/white"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:elevation="4dp" /> <!-- Add shadow for depth -->
+
+        <!-- Back Button -->
+        <Button
+            android:id="@+id/btnAtras"
+            style="@style/btnRedondo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="88dp"
+            android:text="@string/atras"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+        android:textColor="@color/white"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSaldo" />
+
+        <!-- Name TextView -->
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/claros"
+            android:textSize="18sp"
+            android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/menuBar" />
+
+        <!-- Email TextView -->
+        <TextView
+            android:id="@+id/txtCorreo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/claros"
+            android:textSize="18sp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtNombre" />
+
+        <!-- Balance TextView -->
+        <TextView
+            android:id="@+id/txtSaldo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/claros"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtCorreo" />
+
+        <!-- Add a Divider -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/fondo"
+            app:layout_constraintTop_toBottomOf="@id/txtSaldo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Optional: Add more items or sections -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

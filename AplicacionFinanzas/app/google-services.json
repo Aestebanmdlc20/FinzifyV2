@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "18393185879",
+    "firebase_url": "https://finzify-47a9f-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "finzify-47a9f",
+    "storage_bucket": "finzify-47a9f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18393185879:android:6be970daf85ba83cb12d12",
+        "android_client_info": {
+          "package_name": "com.example.aplicacionfinanzas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5QSPeIsiZbCD3caNZTuLItIIgAU8xP9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

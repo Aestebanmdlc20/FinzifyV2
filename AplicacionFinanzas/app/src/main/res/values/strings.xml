@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Finzify</string>
+    <string name="welcome_finzify">Bienvenido a Finzify</string>
+    <string name="welcome">Bienvenido a Finzify, con nosotros podrás gestionar tus gastos e ingresos!</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="view_password">Mostrar contraseña</string>
+    <string name="correct_login">Credenciales correctas!</string>
+    <string name="continuar">Continuar</string>
+    <string name="menu">Menu</string>
+    <string name="news">Últimas noticias sobre economia:</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="inicio">Inicio</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="gestiones">Gestiones</string>
+    <string name="acerca">Acerca de Finzify</string>
+    <string name="operaciones">Bienvenido al centro de operaciones</string>
+    <string name="pregunta">¿Qué operación desea realizar?</string>
+    <string name="add_gasto">Añadir gasto</string>
+    <string name="gastos">Consultar gastos</string>
+    <string name="gasto_name">Nombre del gasto:</string>
+    <string name="gasto_description">Descripción del gasto:</string>
+    <string name="gasto_cantidad">Catidad del gasto:</string>
+    <string name="gasto_categoria">¿A que categoría desea añadir el gasto?</string>
+    <string name="gasto_added">Gasto añadido!</string>
+    <string name="gasto_info">Informacion sobre el gasto:</string>
+    <string name="gasto_name_error">El nombre no puede estar vacío!</string>
+    <string name="gasto_name_error_max_car">El nombre no puede tener más de 20 caracteres!</string>
+    <string name="gasto_monto_error">La cantidad no puede estar vacía!</string>
+    <string name="gasto_monto_error_num">La cantidad debe ser un numero!</string>
+    <string name="saldo_format">Saldo: %1$s</string>
+    <string name="info_usuario">Información del usuario</string>
+    <string name="atras">Atrás</string>
+    <string name="gasto_monto_error_max">No puede tener un gasto mayor a 6 dígitos!</string>
+    <string name="gestionar_saldo">Gestionar saldo</string>
+    <string name="saldo_actual">Saldo actual: </string>
+    <string name="intro_saldo">Introduce el saldo</string>
+    <string name="p_titulo">Habilitar notificaciones</string>
+    <string name="p_descripcion">Activa o desactiva las notificaciones de la app</string>
+    <string name="p_titulo_e">Correo electrónico preferente</string>
+    <string name="p_descripcion_e">Establece el correo electrónico preferente</string>
+    <string name="email">Introduce tu email</string>
+    <string name="add_saldo">Añadir saldo</string>
+    <string name="retirar_saldo">Retirar saldo</string>
+    <string name="login">Inciar sesion</string>
+
+    <string name="acerca_de">Acerca de Finzify
+¡Bienvenido a Finzify, tu asistente financiero personal! Diseñada para ayudarte a tomar el control de tus finanzas, nuestra aplicación te permite gestionar tus gastos e ingresos de forma simple, rápida y efectiva.
+
+Con Finzify, podrás:
+
+Registrar y organizar tus ingresos y gastos en un solo lugar.
+Visualizar resúmenes claros de tus movimientos financieros.
+Tomar decisiones informadas para alcanzar tus metas económicas.
+En esta versión 1.0, hemos priorizado una interfaz intuitiva y herramientas esenciales para que cualquier persona, sin importar su nivel de experiencia, pueda mantener sus finanzas en orden.
+
+Nuestra misión es facilitarte el camino hacia una vida financiera más estable y organizada. ¡Tu progreso comienza aquí con Finzify! 🚀
+
+¿Listo para empezar?
+Descubre todo lo que puedes lograr con nosotros.</string>
+
+
+</resources>
