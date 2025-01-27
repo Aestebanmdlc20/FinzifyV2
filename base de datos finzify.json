@@ -1,0 +1,103 @@
+{
+  "categorias": [
+    null,
+    {
+      "id": 1,
+      "nombre": "Ocio"
+    },
+    {
+      "id": 2,
+      "nombre": "Transporte"
+    },
+    {
+      "id": 3,
+      "nombre": "Salud"
+    },
+    {
+      "id": 4,
+      "nombre": "Otros"
+    }
+  ],
+  "gastos": {
+    "0": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "Entrada al cine para una película",
+      "id": 1,
+      "idCategoria": 1,
+      "monto": 15.5,
+      "nombre": "Cine"
+    },
+    "1": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "Compra de un videojuego nuevo",
+      "id": 2,
+      "idCategoria": 1,
+      "monto": 60,
+      "nombre": "Videojuegos"
+    },
+    "2": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "Viaje en taxi desde el centro comercial",
+      "id": 3,
+      "idCategoria": 2,
+      "monto": 12,
+      "nombre": "Taxi"
+    },
+    "3": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "Visita a consulta médica",
+      "id": 4,
+      "idCategoria": 3,
+      "monto": 45,
+      "nombre": "Consulta médica"
+    },
+    "4": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "Donación a una organización benéfica",
+      "id": 5,
+      "idCategoria": 4,
+      "monto": 30,
+      "nombre": "Donación"
+    },
+    "-OH_GY9_2bydq6Hof8xD": {
+      "correoUsuario": "admin@maestre.com",
+      "descripcion": "asd",
+      "id": 0,
+      "idCategoria": 1,
+      "monto": 23,
+      "nombre": "asd"
+    }
+  },
+  "usuarios": {
+    "admin_maestre_com": {
+      "correo": "admin@maestre.com",
+      "nombre": "admin",
+      "password": "admin",
+      "saldo": 5844
+    },
+    "usuario1_maestre_com": {
+      "correo": "usuario1@maestre.com",
+      "nombre": "Usuario 1",
+      "password": "password1",
+      "saldo": 1500.5
+    },
+    "usuario2_maestre_com": {
+      "correo": "usuario2@maestre.com",
+      "nombre": "Usuario 2",
+      "password": "password2",
+      "saldo": 2500.75
+    },
+    "usuario3_maestre_com": {
+      "correo": "usuario3@maestre.com",
+      "nombre": "Usuario 3",
+      "password": "password3",
+      "saldo": 1800.25
+    },
+    "usuario4_maestre_com": {
+      "correo": "usuario4@maestre.com",
+      "nombre": "Usuario 4",
+      "password": "password4",
+      "saldo": 2200.1
+    }
+  }
+}
